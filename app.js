@@ -232,12 +232,12 @@ function renderAsteroids(asteroids) {
 
         card.innerHTML = `
             <div class="card-content">
-                <small>☄️ Asteroide</small>
-                <p>Fecha: ${asteroid.close_approach_data[0].close_approach_date}</p>
-                <h3>${asteroid.name}</h3>
-                <p>Diámetro aprox: ${diameter} m</p>
-                <p>Distancia a la Tierra: ${distance} km</p>
-                <p style="color:${asteroid.is_potentially_hazardous_asteroid ? 'red':'#22c55e'}">
+            <small>☄️ Asteroide</small>
+            <p>Fecha: ${asteroid.close_approach_data[0].close_approach_date}</p>
+            <h3>${asteroid.name}</h3>
+            <p>Diámetro aprox: ${diameter} m</p>
+            <p>Distancia a la Tierra: ${distance} km</p>
+            <p style="color:${asteroid.is_potentially_hazardous_asteroid ? 'red':'#22c55e'}">
                     ${asteroid.is_potentially_hazardous_asteroid ? '⚠️ Potencialmente peligroso' : 'Seguro'}
                 </p>
             </div>
