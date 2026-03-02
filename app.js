@@ -1,7 +1,7 @@
 /**
  * CONFIGURACIÓN Y ESTADO
  */
-const API_KEY = "API KEY";
+const API_KEY = "BJfWFvz2dGsNHhjdz4V8uBqL7yGLdwMkR5fItYMI";
 const BASE_URL = "https://api.nasa.gov/planetary/apod";
 const gallery = document.getElementById("gallery");
 const statusContainer = document.getElementById("statusContainer");
